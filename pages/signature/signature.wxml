@@ -1,0 +1,9 @@
+<!-- 签名画板 -->
+<canvas canvas-id="canvas" style="width:{{width+'px'}};height:{{height+'px'}}" catchtouchstart="catchtouchstart" catchtouchmove="catchtouchmove" catchtouchend="catchtouchend"></canvas>
+
+<!-- 操作区 -->
+<view class="handle">
+  <view class="btn-reset" catchtap="clearCanvas">重新绘制</view>
+  <view class="btn-confirm" catchtap="canvasToImg">确认</view>
+  <view class="btn-preview" catchtap="canvasToImg">预览</view>
+</view>
